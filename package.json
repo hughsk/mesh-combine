@@ -1,0 +1,39 @@
+{
+  "name": "mesh-combine",
+  "version": "1.0.0",
+  "description": "Combine multiple indexed meshes into a single indexed mesh",
+  "main": "index.js",
+  "license": "MIT",
+  "scripts": {
+    "start": "beefy example.js -- -t glslify"
+  },
+  "author": "Hugh Kennedy <hughskennedy@gmail.com> (http://hughsk.io/)",
+  "dependencies": {
+    "sliced": "0.0.5"
+  },
+  "devDependencies": {
+    "beefy": "^2.0.2",
+    "bunny": "^1.0.1",
+    "glslify": "^1.6.0",
+    "mesh-viewer": "^1.0.0",
+    "stanford-dragon": "^1.0.0",
+    "teapot": "^1.0.0"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/hughsk/mesh-combine.git"
+  },
+  "keywords": [
+    "mesh",
+    "combine",
+    "simplicial",
+    "complex",
+    "graph",
+    "3d",
+    "merge"
+  ],
+  "homepage": "https://github.com/hughsk/mesh-combine",
+  "bugs": {
+    "url": "https://github.com/hughsk/mesh-combine/issues"
+  }
+}
