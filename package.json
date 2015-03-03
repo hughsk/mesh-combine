@@ -1,6 +1,6 @@
 {
   "name": "mesh-combine",
-  "version": "1.0.0",
+  "version": "1.1.0",
   "description": "Combine multiple indexed meshes into a single indexed mesh",
   "main": "index.js",
   "license": "MIT",
