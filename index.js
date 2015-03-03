@@ -19,9 +19,10 @@ function combine(meshes) {
 
     for (var j = 0; j < mcel.length; j++) {
       cel[k = j + c] = slice(mcel[j])
-      cel[k][0] += p
-      cel[k][1] += p
-      cel[k][2] += p
+
+      for(var l = 0; l < cel[k].length; l++) {
+        cel[k][l] += p
+      }
     }
 
     p += mpos.length
