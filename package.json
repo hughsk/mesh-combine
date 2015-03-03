@@ -9,7 +9,8 @@
   },
   "author": "Hugh Kennedy <hughskennedy@gmail.com> (http://hughsk.io/)",
   "dependencies": {
-    "sliced": "0.0.5"
+    "sliced": "0.0.5",
+    "tape": "^3.5.0"
   },
   "devDependencies": {
     "beefy": "^2.0.2",
@@ -17,6 +18,7 @@
     "glslify": "^1.6.0",
     "mesh-viewer": "^1.0.0",
     "stanford-dragon": "^1.0.0",
+    "tape": "^3.5.0",
     "teapot": "^1.0.0"
   },
   "repository": {
