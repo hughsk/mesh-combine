@@ -5,12 +5,12 @@
   "main": "index.js",
   "license": "MIT",
   "scripts": {
-    "start": "beefy example.js -- -t glslify"
+    "start": "beefy example.js -- -t glslify",
+    "test": "node test | tap-spec"
   },
   "author": "Hugh Kennedy <hughskennedy@gmail.com> (http://hughsk.io/)",
   "dependencies": {
-    "sliced": "0.0.5",
-    "tape": "^3.5.0"
+    "sliced": "0.0.5"
   },
   "devDependencies": {
     "beefy": "^2.0.2",
@@ -18,6 +18,7 @@
     "glslify": "^1.6.0",
     "mesh-viewer": "^1.0.0",
     "stanford-dragon": "^1.0.0",
+    "tap-spec": "^2.2.1",
     "tape": "^3.5.0",
     "teapot": "^1.0.0"
   },
