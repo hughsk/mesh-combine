@@ -16,6 +16,7 @@ should be an object with two properties:
 
 * `positions`: the positions in the individual mesh.
 * `cells`: a list of faces in the individual mesh.
+* `normals`: the normals in the individual mesh (if already presents in every starting input mesh).
 
 ## See Also
 
